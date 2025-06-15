@@ -35,8 +35,8 @@ def ebd_to_list(ebd):
 
 if __name__=='__main__':
     EBDS_PATH = './data/embeddings.pkl' # [IO]
-    INDEX_PATH = './index/my_index.index' # [IO]
-    INDEX_EBD_LIST_PATH = './index/DUP_solve_Dayu_finetune_ebds_epoch_5_margin03_ebd_list.pkl' # [IO]
+    INDEX_PATH = './index/searching_index.index' # [IO]
+    INDEX_EBD_LIST_PATH = './index/searching_ebds_list.pkl' # [IO]
     SAVE_PATH = './data/search_results.pkl' # [IO]
      
     with open(EBDS_PATH, 'rb') as f: 
