@@ -39,6 +39,7 @@ Please download and extract the models from [NextCloud](https://cloud.vul337.tea
 tar -xzvf *.tar.gz
 mkdir index/
 mv searching_index.index index/
+mv searching_ebds_list.pkl index/
 ```
 
 
